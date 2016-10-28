@@ -1,0 +1,25 @@
+{
+  "name": "springrollselfcontained",
+  "version": "0.0.1",
+  "description": "Packages a Springroll game from Springroll Connect to be uploaded by a third party host.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yan Shcherbakov",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-rename": "0.0.3",
+    "grunt-jade": "^0.5.1",
+    "grunt-springroll-download": "^0.1.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
